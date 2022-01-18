@@ -1,0 +1,18 @@
+id: "siamese_hpo"
+base_config: 'siamese'
+hpo:
+  num_samples: 100
+  cpu_per_trial: 16
+  gpu_per_trial: 1
+  hpo_algorithm:
+    name: 'SkOptSearch'
+    params:
+      mode: 'max'
+
+env:
+  epochs: 30
+  topk: ['uniform', [10, 500]]
+
+data:
+  params:
+    positive_rate: ['uniform', [0.1, 0.9]]

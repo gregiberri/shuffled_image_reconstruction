@@ -1,0 +1,56 @@
+name: mnist_shuffle
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - huggingface
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - pandas
+  - Pillow
+  - pytorch-ranger
+  - PyYAML
+  - ray-tune
+  - scikit-image
+  - scikit-learn
+  - scikit-optimize
+  - seaborn
+  - tensorboardX
+  - pytorch
+  - torch-optimizer
+  - torchmetrics
+  - torchvision
+  - tqdm
+  - cudatoolkit=11.3
+  - notebook
+  - opencv
+  - ipywidgets
+  - transformers
+  - datasets
+  - mlxtend
+  - networkx
+  - pip:
+      - hyperopt==0.2.5
+      - pytorch-ranger==0.1.1
+      - torch-optimizer==0.3.0
+      - bayesian-optimization
+      - hpbandster
+      - ConfigSpace
+      - flaml
+      - dragonfly-opt
+      - HEBO
+      - nevergrad
+      - scikit-optimize
+
+
+
+
+
+
+
+
+
+
+
