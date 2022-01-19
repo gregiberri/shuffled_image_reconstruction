@@ -1,4 +1,4 @@
-# Shuffle data reconstruction
+# Shuffled image reconstruction
 ### Introduction
 The top and bottom halves of an image dataset got cut in half and mixed up. 
 The aim of this task is to make an algorithm to pair together the matching tops and bottoms 
