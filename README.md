@@ -1,10 +1,8 @@
-# MNIST shuffle
+# Shuffle data reconstruction
 ### Introduction
-The digits in the test set of the 
-[MNIST dataset](http://yann.lecun.com/exdb/mnist/)
- got cut in half vertically and shuffled
-around. The aim of this task is to make an algorithm to pair together the matching tops and bottoms 
-from the shuffled the images in MNIST test set. 
+The top and bottom halves of an image dataset got cut in half and mixed up. 
+The aim of this task is to make an algorithm to pair together the matching tops and bottoms 
+from the shuffled images in the test set. 
 
 ### Requirements
 The required packages can be found in *config/env_files/mnist_shuffle_env.yml*. 
